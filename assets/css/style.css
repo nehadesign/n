@@ -1,5 +1,5 @@
 body > div > header > div > nav > a:link {
-  color: #000;  
+  color: #000;
 }
 
 body > div > main > h1 {
@@ -44,4 +44,10 @@ body > div > main > .lead {
 
 .carousel-caption > p {
   font-size: 3em;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 0;
+  }
 }
